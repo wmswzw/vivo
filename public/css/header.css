@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ededed;
+  min-width: 1200px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* header部分 */
+header {
+  background-color: #242933;
+  height: 40px;
+}
+
+header div {
+  display: inline-block;
+}
+
+header ul {
+  margin-top: 8px;
+  list-style: none;
+}
+
+header ul li {
+  display: inline-block;
+  margin-left: 25px;
+  font-size: 12px;
+  font-weight: bold;
+
+}
+
+header ul li a {
+  color: #8a8f99;
+  transition: 0.3s;
+}
+
+header ul li a:hover {
+  color: #fff;
+}
+
+header .left li:first-child {
+  margin-left: 80px;
+}
+
+header .right {
+  float: right;
+  margin-right: 50px;
+}
+
+/* banner部分 */
+.banner {
+  height: 90px;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.banner .logo {
+  margin-top: 30px;
+  margin-left: 80px;
+  display: inline-block;
+  /* background-color: red; */
+}
+
+.banner .logo img {
+  width: 100px;
+}
+
+.banner .logo img:hover {
+  content: url('../../img/vivo_blue.png');
+}
+
+.banner .middle {
+  display: inline-block;
+  /* margin-top: 35px; */
+  line-height: 90px;
+  height: 90px;
+  margin-right: 90px;
+  /* background-color: yellow; */
+}
+
+.banner .middle li {
+  display: inline-block;
+  margin: 0 10px;
+  /* transition: 0.3s; */
+}
+
+.banner .middle li a {
+  /* font-weight: bold; */
+  color: black;
+  transition: 0.1s;
+}
+
+.banner .middle li a:hover {
+  /* color: blue; */
+  padding-top: -100px;
+  font-size: 18px;
+  text-shadow: 0px 5px 10px rgba(0, 0, 0, 0.6);
+}
+
+.banner .search {
+  margin-top: 40px;
+  margin-right: 80px;
+  display: inline-block;
+  /* background-color: red; */
+}
+
+.banner .search img {
+  width: 20px;
+}
+
+.banner .hide {
+  z-index: 6;
+  position: absolute;
+  width: 100%;
+  height: 480px;
+  top: 90px;
+  background-color: rgb(247, 247, 247);
+  display: none;
+  justify-content: space-around;
+}
+
+.banner .hide .hidepro {
+  width: 300px;
+  height: 470px;
+  background-color: #fff;
+  margin: 5px;
+  transition: 0.3s;
+  text-align: center;
+}
+
+.banner .hide .hidepro:hover {
+  margin-top: 4px;
+  box-shadow: 0px 20px 30px rgba(100, 100, 100, 0.65);
+}
+
+.banner .hide .hidepro img {
+  margin-top: 40px;
+  width: 100%;
+}
+
+.banner .hide .hidepro p:nth-child(2) {
+  /* margin-top: 20px; */
+  /* margin: 20px auto;; */
+  display: inline-block;
+  color: black;
+}
+
+.banner .hide .hidepro p:nth-child(3) {
+  margin: 20px 0 40px;
+  line-height: 16px;
+  font-size: 14px;
+  height: 16px;
+  padding: 0 20px;
+  overflow: hidden;
+  color: #999;
+}
+
+.father-login {
+  position: relative;
+}
+
+.float-login {
+  display: none;
+  position: absolute;
+  width: 100%;
+  height: 30px;
+  background-color: #242933;
+  border-radius: 0px 0px 5px 5px;
+  /* border: 1px solid white; */
+  text-align: center;
+  z-index: 1;
+}
+
+.float-login a {
+  cursor: pointer;
+  text-align: center;
+  line-height: 30px;
+  color: #8a8f99;
+}
+
+.float-login a:hover {
+  color: white;
+}

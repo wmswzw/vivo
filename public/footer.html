@@ -1,0 +1,424 @@
+<!-- <link rel="stylesheet" href="../public/css/footer.css"> -->
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        background-color: #ededed;
+        min-width: 1200px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    /* body footer部分 */
+    footer {
+        height: 580px;
+        background-color: white;
+        text-align: center;
+    }
+
+    footer .up {
+        margin: 0px auto;
+        padding-top: 50px;
+        padding-bottom: 30px;
+        width: 1000px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    footer .up .list {
+        display: inline-block;
+    }
+
+    footer .up img {
+        width: 25px;
+        vertical-align: bottom;
+        margin-right: 10px;
+    }
+
+    footer .up .list span {
+        font-size: 18px;
+    }
+
+    footer hr {
+        margin: 0px auto;
+        width: 1200px;
+        color: gray;
+    }
+
+    .outer {
+        display: inline-block;
+        width: 1200px;
+        text-align: left;
+    }
+
+    footer dl {
+        margin-top: 60px;
+        vertical-align: text-top;
+        display: inline-block;
+        margin-right: 90px;
+    }
+
+    footer dl dt {
+        color: #242933;
+        font-weight: bold;
+        font-size: 16px;
+        margin-bottom: 30px;
+    }
+
+    footer dl dd {
+        color: #969696;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+
+    footer .right {
+        float: right;
+        /* text-align: left; */
+        margin-top: 40px;
+        position: relative;
+    }
+
+    footer .right .cha:hover {
+        color: #415fff;
+    }
+
+    footer .right p {
+        margin-top: 20px;
+    }
+
+    footer .right img {
+        display: inline-block;
+        width: 18px;
+        margin-right: 10px;
+        vertical-align: bottom;
+    }
+
+    footer .right span {
+        display: inline-block;
+        font-size: 16px;
+        color: #575c66;
+    }
+
+    footer .right h3 {
+        color: #415fff;
+        text-indent: 30px;
+        font-size: 28px;
+    }
+
+    footer .right .neximg {
+        margin-left: 30px;
+        margin-top: 10px;
+    }
+
+    footer .right .neximg img {
+        cursor: pointer;
+        width: 30px;
+    }
+
+    footer .right .neximg .wx {
+        position: absolute;
+        top: 30px;
+        left: 0px;
+        width: 180px;
+        height: 200px;
+        display: none;
+        background-color: #fff;
+        text-align: center;
+        border: 1px solid #ececec;
+        border-radius: 10px;
+    }
+
+    footer .right .neximg .wx img {
+        padding-left: 10px;
+        margin-top: 20px;
+        width: 120px;
+    }
+
+    footer .right .neximg .wx p {
+        font-size: 12px;
+        /* margin-left: -10px; */
+        color: #bebebe;
+    }
+
+    footer .right .neximg .zfb {
+        position: absolute;
+        top: 30px;
+        left: 45px;
+        width: 180px;
+        height: 200px;
+        display: none;
+        background-color: #fff;
+        text-align: center;
+        border: 1px solid #ececec;
+        border-radius: 10px;
+    }
+
+    footer .right .neximg .zfb img {
+        padding-left: 10px;
+        margin-top: 20px;
+        width: 120px;
+    }
+
+    footer .right .neximg .zfb p {
+        font-size: 12px;
+        /* margin-left: -10px; */
+        color: #bebebe;
+    }
+
+    footer .right .neximg .xcx {
+        position: absolute;
+        top: 30px;
+        left: 90px;
+        width: 180px;
+        height: 200px;
+        display: none;
+        background-color: #fff;
+        text-align: center;
+        border: 1px solid #ececec;
+        border-radius: 10px;
+    }
+
+    footer .right .neximg .xcx img {
+        padding-left: 10px;
+        margin-top: 20px;
+        width: 120px;
+    }
+
+    footer .right .neximg .xcx p {
+        font-size: 12px;
+        /* margin-left: -10px; */
+        color: #bebebe;
+    }
+
+    footer .right .neximg .p1:hover {
+        content: url('../../img/wb_blue.png');
+    }
+
+    footer .right .neximg .p2:hover {
+        content: url('../../img/wx_blue.png');
+    }
+
+    footer .right .neximg .p3:hover {
+        content: url('../../img/zfb_blue.png');
+    }
+
+    footer .right .neximg .p4:hover {
+        content: url('../../img/xcx_blue.png');
+    }
+
+
+
+
+    footer .outer hr {
+        margin-top: 60px;
+        border: 1px solid;
+        color: #e6e6e6;
+    }
+
+    footer .down ul:first-child {
+        margin-top: 15px;
+    }
+
+    footer .down ul {
+        margin-top: 5px;
+        list-style: none;
+    }
+
+    footer .down li {
+        display: inline-block;
+        color: #969696;
+        padding-left: 4px;
+        font-size: 12px;
+        border-left: 1px solid;
+    }
+
+    footer .down .first {
+        border: none;
+    }
+
+    footer .down img {
+        width: 13px;
+    }
+</style>
+<footer>
+    <div class="up">
+        <div class="list"><img src="../img/real.png" alt=""><span>官方正品</span></div>
+        <div class="list"><img src="../img/pack.png" alt=""><span>顺丰极速达</span></div>
+        <div class="list"><img src="../img/heart.png" alt=""><span>全国联保</span></div>
+        <div class="list"><img src="../img/lightning.png" alt=""><span>免费定制</span></div>
+    </div>
+    <hr>
+    <div class="outer">
+        <dl>
+            <dt>热门链接</dt>
+            <a href="">
+                <dd>X50 Pro</dd>
+            </a>
+            <a href="">
+                <dd>S7</dd>
+            </a>
+            <a href="">
+                <dd>NEX 3S</dd>
+            </a>
+            <a href="">
+                <dd>vivo摄影</dd>
+            </a>
+            <a href="">
+                <dd>查找手机</dd>
+            </a>
+            <a href="">
+                <dd>常见问题</dd>
+            </a>
+        </dl>
+        <dl>
+            <dt>在线购买</dt>
+            <a href="">
+                <dd>官方商城</dd>
+            </a>
+            <a href="">
+                <dd>选购手机</dd>
+            </a>
+            <a href="">
+                <dd>选购配件</dd>
+            </a>
+            <a href="">
+                <dd>企业服务</dd>
+            </a>
+            <a href="">
+                <dd>以旧换新</dd>
+            </a>
+            <a href="">
+                <dd>保障服务</dd>
+            </a>
+        </dl>
+        <dl>
+            <dt>服务支持</dt>
+            <a href="">
+                <dd>体验店</dd>
+            </a>
+            <a href="">
+                <dd>服务首页</dd>
+            </a>
+            <a href="">
+                <dd>服务网点查询</dd>
+            </a>
+            <a href="">
+                <dd>真伪查询</dd>
+            </a>
+            <a href="">
+                <dd>预约维修</dd>
+            </a>
+            <a href="">
+                <dd>维修配件价格</dd>
+            </a>
+            <a href="">
+                <dd>服务政策</dd>
+            </a>
+            <a href="">
+                <dd>安全公告</dd>
+            </a>
+        </dl>
+        <dl>
+            <dt>vivo社区</dt>
+            <a href="">
+                <dd>社区首页</dd>
+            </a>
+            <a href="">
+                <dd>摄影专区</dd>
+            </a>
+            <a href="">
+                <dd>新浪微博</dd>
+            </a>
+            <a href="">
+                <dd>百度贴吧</dd>
+            </a>
+            <a href="">
+                <dd>兴趣部落</dd>
+            </a>
+        </dl>
+        <dl>
+            <dt>关于vivo</dt>
+            <a href="">
+                <dd>vivo简介</dd>
+            </a>
+            <a href="">
+                <dd>工作机会</dd>
+            </a>
+            <a href="">
+                <dd>新闻资讯</dd>
+            </a>
+            <a href="">
+                <dd>采购平台</dd>
+            </a>
+            <a href="">
+                <dd>供应商协同平台</dd>
+            </a>
+            <a href="">
+                <dd>开放平台</dd>
+            </a>
+            <a href="">
+                <dd>廉正合规</dd>
+            </a>
+        </dl>
+        <div class="right">
+            <a href="">
+                <p><img src="../img/service1.png" alt=""><span class="cha">在线客服</span></p>
+            </a>
+            <p><img src="../img/phone.png" alt=""><span>全国客户服务热线 7*24小时</span></p>
+            <h3>400-678-9688</h3>
+            <p><img src="../img/service2.png" alt=""><span>NEX专属服务热线 7*24小时</span></p>
+            <h3>400-679-9688</h3>
+            <p><img src="../img/follow.png" alt=""><span>关注vivo</span></p>
+            <div class="neximg">
+                <img class="p1" src="../img/wb.png" alt="">
+                <img class="p2" src="../img/wx.png" alt="">
+                <div class="wx">
+                    <img class="wximg" src="../img/qrwx.png" alt="">
+                    <p>公众号：vivo官方商城</p>
+                </div>
+                <img class="p3" src="../img/zfb.png" alt="">
+                <div class="zfb">
+                    <img class="zfbimg" src="../img/qrzfb.png" alt="">
+                    <p>公众号：vivo官方商城</p>
+                </div>
+                <img class="p4" src="../img/xcx.png" alt="">
+                <div class="xcx">
+                    <img class="xcximg" src="../img/qrxcx.png" alt="">
+                    <p>公众号：vivo官方商城</p>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+        <div class="down">
+            <ul>
+                <li class="first">©2011-2020 广东天宸网络科技有限公司 版权所有</li>
+                <a href="">
+                    <li>隐私政策</li>
+                </a>
+                <a href="">
+                    <li>法律声明</li>
+                </a>
+                <a href="">
+                    <li>营业执照</li>
+                </a>
+                <a href="">
+                    <li>粤B2-20080267</li>
+                </a>
+                <a href="">
+                    <li>粤ICP备14052990号</li>
+                </a>
+                <a href="">
+                    <li class="lastet">粤公网安备 44190002004246号</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+</footer>
+<script src="../public/js/footer.js"></script>

@@ -1,0 +1,174 @@
+#content {
+  min-width: 1200px;
+}
+
+.cart-title {
+  position: relative;
+  height: 66px;
+  margin-bottom: 19px;
+  line-height: 66px;
+  color: #333;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #fff;
+  text-align: center;
+  margin-left: 18%;
+  margin-right: 18%;
+}
+
+.cart-title span {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+.cart-title a {
+  position: absolute;
+  right: 35px;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.no-result {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+  margin: 0;
+  padding: 0;
+  height: 452px;
+  background-color: #fff;
+  text-align: center;
+  margin-left: 18%;
+  margin-right: 18%;
+  margin-bottom: 60px;
+}
+
+.no-result .no-result-des {
+  margin-top: 20px;
+  font-size: 15px;
+  color: #666;
+  text-align: center;
+  line-height: 22.5px;
+}
+
+.v-btn {
+  display: inline-block;
+  width: 170px;
+  height: 46px;
+  line-height: 46px;
+  text-align: center;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px/50%;
+  margin-right: 27px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  outline: none;
+  border: none;
+  background-color: #ff0c53;
+  cursor: pointer;
+}
+
+.no-result-btn-container {
+  margin-top: 40px;
+}
+
+#cont {
+  width: 1200px;
+  margin: 20px auto;
+  background: #fff;
+  border: solid 2px #ccc;
+  border-radius: 10px;
+}
+
+#cont h2 {
+  line-height: 60px;
+  color: #666;
+  text-indent: 20px;
+  font-size: 20px;
+  border-bottom: solid 1px #ccc
+}
+
+#cont img {
+  width: 100px;
+}
+
+#cont table {
+  width: 1200px;
+}
+
+#cont input[type=number] {
+  width: 50px;
+}
+
+table td:nth-child(1),
+table th:nth-child(1) {
+  text-indent: 20px;
+}
+
+table thead {
+  line-height: 40px;
+  background-color: #eee;
+  font-size: 14px;
+  color: #666
+}
+
+table tfoot {
+  font-size: 14px;
+  background-color: #eee;
+  line-height: 40px;
+}
+
+table tfoot td:nth-child(2) {
+  color: #666;
+}
+
+table tfoot span {
+  font-size: 20px;
+  color: #d44d44;
+  font-weight: bold;
+  margin: 0 6px;
+}
+
+html,
+body,
+ul,
+li,
+dl,
+dt,
+dd,
+h2 {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ededed;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.dels {
+  cursor: pointer;
+  font-style: normal;
+}
+
+.dels:active {
+  color: #000;
+}

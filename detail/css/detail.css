@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.section_wrapper {
+  width: 100%;
+  background-color: #fff;
+}
+.section_wrapper .information img {
+  display: block;
+}
+.section_wrapper .container {
+  width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+}
+.section_wrapper .container .info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: move;
+}
+.section_wrapper .container .info .mask {
+  display: none;
+  position: absolute;
+  width: 300px;
+  height: 300px;
+}
+.section_wrapper .container .info .big {
+  display: none;
+  position: absolute;
+  left: 800px;
+  top: 100px;
+  width: 500px;
+  height: 500px;
+  background-color: #fff;
+  z-index: 10;
+  overflow: hidden;
+}
+.section_wrapper .container .info .big img {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.section_wrapper .container .info .info_left {
+  width: 400px;
+}
+.section_wrapper .container .info .info_left img {
+  width: 100%;
+  height: 100%;
+}
+.section_wrapper .container .info .info_right {
+  width: 520px;
+}
+.section_wrapper .container .info .info_right h3 {
+  font-size: 34px;
+  color: #000000;
+  font-weight: normal;
+}
+.section_wrapper .container .info .info_right p:nth-child(2) {
+  margin-top: 20px;
+  color: #b1b1b1;
+  font-size: 14px;
+  line-height: 22px;
+}
+.section_wrapper .container .info .info_right p:nth-child(3) {
+  margin: 50px 0;
+  color: #f51200;
+  font-size: 30px;
+}
+.section_wrapper .container .info .info_right p:nth-child(3) span {
+  font-size: 20px;
+}
+.section_wrapper .container .info .info_right .buy {
+  display: flex;
+}
+.section_wrapper .container .info .info_right .buy p {
+  margin: 0 auto;
+  display: block;
+  width: 170px;
+  height: 46px;
+  font-size: 14px;
+  border-radius: 20px;
+  text-align: center;
+  line-height: 46px;
+  background-color: #444444;
+}
+.section_wrapper .container .info .info_right .buy p:nth-child(2) {
+  background-color: #fc0d4d;
+  cursor: pointer;
+}
+.back {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background-color: rgba(255, 255, 255, 0.7);
+  font-size: 16px;
+  right: 5px;
+  bottom: 100px;
+  display: none;
+}

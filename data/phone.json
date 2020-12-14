@@ -1,0 +1,44 @@
+[
+    {
+      "src": "https://shopstatic.vivo.com.cn/vivoshop/commodity/25/10002225_1587193557457_750x750.png.webp",
+      "name": "iQOO Neo3 5G版 8GB+128GB 夜幕黑",
+      "info": "【①12.12全程价保；②限时优惠50元】 144Hz高刷竞速屏/高通骁龙865/双模5G全网通/44W+ 4500mAh/立体双扬Hi-Fi/UFS 3.1",
+      "price": "2948.00",
+      "proId": "001"
+    },
+    {
+      "src": "https://shopstatic.vivo.com.cn/vivoshop/commodity/48/10005648_1597027459923_750x750.png.webp",
+      "name": "iQOO 5 5G版 8GB+128GB 星溯",
+      "info": "【①12.12全程价保；②限时优惠210元】 120Hz 超视感柔性屏，骁龙865+LPDDR5+UFS3.1超劲核芯，KPL官方比赛用机，超大底变焦三摄。",
+      "price": "3788.00",
+      "proId": "003"
+    },
+    {
+      "src": "https://shopstatic.vivo.com.cn/vivoshop/commodity/22/10001922_1585706417885_750x750.png.webp",
+      "name": "iQOO 3 5G版 12GB+256GB 拉力橙",
+      "info": "【①限时优惠200元；②6期免息；③赠90元组合配件券】 高通骁龙865，双模5G；55W超快闪充；支持LPDDR5+UFS 3.1+Wi-Fi6。",
+      "price": "3998.00",
+      "proId": "005"
+    },
+    {
+      "src": "https://shopstatic.vivo.com.cn/vivoshop/commodity/03/10002503_1589799951253_750x750.png.webp",
+      "name": "iQOO Z1 5G版 8GB+128GB 星河银",
+      "info": "【12.2享：①下单立减100元；②12.12全程价保；③赠90元组合配件券】 全球首款5G+5G 双卡双待手机，全球首发天玑1000Plus旗舰芯片，144Hz竞速屏",
+      "price": "2298.00",
+      "proId": "006"
+    },
+    {
+      "src": "https://shopstatic.vivo.com.cn/vivoshop/commodity/01/10006001_1605164406948_750x750.png.webp",
+      "name": "vivo S7e 5G版 8GB+128GB 银月",
+      "info": "【老用户咨询客服登记赠33W充电头】 6400万超清影像系统|3200万超清前置|重量约171.7g|33W闪充",
+      "price": "2398.00",
+      "proId": "004"
+    },
+    {
+      "src": "https://shopstatic.vivo.com.cn/vivoshop/commodity/44/10002544_1590047377362_750x750.png.webp",
+      "name": "vivo X50 5G版 8GB+128GB 液氧",
+      "info": "【老用户咨询客服登记赠33W充电头】 超薄柔性屏|超感光夜摄|超稳运动拍摄|定制IMX598传感器",
+      "price": "3298.00",
+      "proId": "002"
+    }
+]

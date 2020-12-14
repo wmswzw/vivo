@@ -1,0 +1,105 @@
+<!-- <link rel="stylesheet" href="../public/css/fixbar.css"> -->
+<style>
+    .fixbar {
+        position: fixed;
+        width: 40px;
+        font-size: 16px;
+        right: 5px;
+        bottom: 120px;
+        background-color: rgba(255, 255, 255, 0.7);
+        box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.45);
+    }
+
+    .fixbar img {
+        float: right;
+        width: 30px;
+        height: 28px;
+        padding: 5px 5px;
+        background-color: rgba(255, 255, 255, 0.7);
+        transition: 0.1s;
+    }
+
+    .fixbar .fixpart1 {
+        position: relative;
+    }
+
+    .fixbar .fixpart1:hover {
+        background-color: #eaeaea;
+    }
+
+    .fixbar .fixpart2:hover {
+        background-color: #eaeaea;
+    }
+
+    .fixbar .fixpart3:hover {
+        background-color: #eaeaea;
+    }
+
+    .fixbar .fixpart4 {
+        height: 0px;
+    }
+
+    .fixbar .cart-plugs {
+        display: none;
+        position: absolute;
+        bottom: 0px;
+        left: -300px;
+        width: 276px;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0px 0px 10px rgba(100, 100, 100, 0.45);
+        text-align: center;
+        border-radius: 10px 10px 0 10px;
+    }
+
+    .fixbar .cart-plugs h4 {
+        padding: 5px 0;
+        border-radius: 10px 10px 0 0;
+        background-color: #cacaca;
+        color: #71757e;
+    }
+
+    .fixbar .cart-plugs p {
+        padding: 0 0 7px 0;
+        font-weight: 900;
+        background-color: #cacaca;
+        border-radius: 0 0 0 10px;
+    }
+
+    .fixbar table {
+        border-collapse: collapse;
+    }
+
+    .fixbar table tr {
+        border-bottom: 1px solid #cacaca;
+    }
+
+    .fixbar table img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .fixbar table tr td {
+        padding: 0 12px;
+        /* border: 1px solid black; */
+    }
+</style>
+<div class="fixbar">
+    <div class="father-plug">
+        <a href="../cart/index.html"><img class="fixpart1" src="../img/cart.png" alt=""></a>
+        <div class="cart-plugs">
+            <h4>购物车(预览)</h4>
+            <table>
+                <tbody class="plug-cart">
+                    <tr>
+                        <td colspan="3">购物车中无商品</td>
+                    </tr>
+                </tbody>
+            </table>
+            <a class="s-hide" href="../cart/index.html">
+                <p>. . .</p>
+            </a>
+        </div>
+    </div>
+    <img class="fixpart4" src="../img/back.png" alt="">
+</div>
+<script src="../public/js/fixbar.js"></script>

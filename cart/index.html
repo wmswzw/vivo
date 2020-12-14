@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>购物车</title>
+    <script src="https://lib.baomitu.com/jquery/3.5.1/jquery.js"></script>
+    <!-- <link rel="stylesheet" href="index.css"> -->
+    <!-- <link rel="stylesheet" href="detail.css"> -->
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="icon" href="//www.vivo.com.cn/favicon.ico">
+</head>
+
+<body>
+
+    <div id="header"></div>
+    <!-- <div id="content">
+            
+            <div class="cart-title">
+                <span>我的购物车</span>
+                <a href="../index.html">继续购物</a>
+            </div>
+        </div>
+
+        <div class="no-result">
+            <div>
+                <img src="../img/no-result.50507a32.png">
+            </div>
+            <div class="no-result-des">哎呀，购物车为空！</div>
+            <div class="no-result-btn-container">
+                <button class="v-btn" onclick="window.location.href='../index.html'">去选购逛逛</button>
+                <button class="v-btn">我的收藏</button>
+            </div>
+        </div> -->
+    <div id="cont">
+        <h2>购物清单</h2>
+        <table>
+            <thead>
+                <tr class="">
+                    <th colspan="3" align="left">商品信息</th>
+                    <th>单价</th>
+                    <th>数量</th>
+                    <th>小计</th>
+                    <th>操作</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td colspan="7">购物车中无商品，请<a href="../index.html">继续购物</a>...</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td><input type="checkbox" class="selAll">全选</td>
+                    <td colspan="2"><em class="dels">删除选中的商品</em></td>
+                    <td align="center" class="sum">总数量：<span>0</span>件</td>
+                    <td align="center" colspan="2" class="allPrice">总价：<span>0</span>元</td>
+                    <td align="center"><input type="button" value="去支付"></td>
+                </tr>
+            </tfoot>
+        </table>
+
+    </div>
+
+    <div id="footer"></div>
+    <div id="fixbar"></div>
+    <script src="./js/index.js">
+
+    </script>
+</body>
+
+</html>
